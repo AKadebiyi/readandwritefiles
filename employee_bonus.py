@@ -4,6 +4,7 @@ import csv
 employeefile = open("EmployeePay.csv", "r")
 employee = csv.reader(employeefile, delimiter=",")
 
+
 next(employee)
 
 for i in employee:
