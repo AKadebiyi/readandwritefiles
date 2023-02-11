@@ -13,4 +13,6 @@ for i in employee:
     print("First Name:", i[1])
     print("Last Name:", i[2])
     print("Total Pay:", totalpay)
-    input()
+    print()
+
+employee.close()
